@@ -1,7 +1,10 @@
 {
-  "name": "react-native-fs",
-  "version": "2.20.0",
-  "description": "Native filesystem access for react-native",
+  "name": "@nexterarobotics/react-native-fs",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nexterarobotics"
+  },
+  "version": "2.22.0",
+  "description": "Nextera fork of native filesystem access for react-native",
   "main": "FS.common.js",
   "typings": "index.d.ts",
   "scripts": {
@@ -10,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:itinance/react-native-fs.git"
+    "url": "git@github.com:nexterarobotics/react-native-fs.git"
   },
   "keywords": [
     "react-component",
