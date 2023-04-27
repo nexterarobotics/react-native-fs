@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/nexterarobotics"
   },
-  "version": "2.25.0",
+  "version": "2.26.0",
   "description": "Nextera fork of native filesystem access for react-native",
   "main": "FS.common.js",
   "typings": "index.d.ts",
