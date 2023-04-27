@@ -234,7 +234,7 @@ public class RNFSManager extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void read(String filepath, int length, int position, Promise promise) {
+  public void read(String filepath, int length, long position, Promise promise) {
     try {
       InputStream inputStream = getInputStream(filepath);
       byte[] buffer = new byte[length];
